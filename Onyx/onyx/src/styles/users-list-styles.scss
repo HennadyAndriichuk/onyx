@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   min-height: 9820px;
+   @media(max-width: 768px){
+      min-height: 8411px;
+   }
+   @media(max-width: 360px){
+      min-height: 8600px;
+   }
+   .mainflow{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1440px;
+      width: 100%;
+      min-height: 9820px;
+      background-color: #000000;
+      @media(max-width: 768px){
+         min-height: 8411px;
+      }
+      @media(max-width: 360px){
+         min-height: 8600px;
+      }
+   }
+}
+.users-list-wrapper{
+   display: flex;
+   max-width: 1440px;
+   width: 100%;
+   min-height: 2500px;
+   flex-direction: column;
+   align-items: center;
+}

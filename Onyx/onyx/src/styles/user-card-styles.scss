@@ -1,0 +1,16 @@
+.user-card-wrapper{
+   display: flex;
+   max-width: 1250px;
+   width: 100%;
+   min-height: 100px;
+   background-color: wheat;
+   justify-content: space-around;
+   align-items: center;
+   .user-name, .user-bdate, .user-email{
+      display: flex;
+      width: 30%;
+      height: 90%;
+      border: 2px solid black;
+      border-radius: 15px;
+   }
+}

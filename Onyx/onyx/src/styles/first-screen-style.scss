@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Cormorant:wght@500&family=Noto+Serif:wght@700&family=Poppins:wght@600&family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Cormorant:wght@500&family=Didact+Gothic&family=Noto+Serif:wght@700&family=Poppins:wght@600&family=Work+Sans:wght@600&display=swap');
+.first-screen-wrapper{
+   display: flex;
+   max-width: 1440px;
+   width: 100%;
+   height: 946px;
+   flex-direction: column;
+   @media(max-width: 768px){
+      max-width: 768px;
+      width: 100%;
+      height: 1115px;
+   }
+   @media(max-width: 520px){
+      max-width: 520px;
+      width: 100%;
+      height: 935px;
+   }
+   @media(max-width: 410px){
+      max-width: 410px;
+      width: 100%;
+      height: 685px;
+   }
+   .header-wrapper{
+      display: flex;
+      width: 100%;
+      height: 125px;
+      align-items: center;
+      justify-content: center;
+      @media(max-width: 768px){
+         height: 143px;
+      }
+      @media(max-width: 520px){
+         height: 100px;
+      }
+      .header-container{
+         display: flex;
+         width: 86.12%;
+         align-items: center;
+         height: 52px;
+         justify-content: space-between;
+         @media(max-width: 768px){
+            width: 86.12%;
+         }
+         @media(max-width: 520px){
+            width: 86.12%;
+         }
+         .header-logo-container{
+            display: flex;
+            width: 118px;
+            height: 52px;
+            position: relative;
+            .logo-text{
+               color: white;
+               font-size: 28px;
+               font-family: Bellota;
+               font-weight: 400;
+               line-height: 30px;
+               word-wrap: break-word;
+               position: absolute;
+               left: 33px;
+               top: 22px;
+            }
+         }
+         .socials-container{
+            display: flex;
+            width: 78px;
+            height: 32px;
+            justify-content: space-between;
+            align-items: center;
+            img{
+               width: 22px;
+               height: 24px;
+               &:hover{
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+   }
+   .content-wrapper{
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      height: 821px;
+      @media(max-width: 768px){
+         height: 973px;
+      }
+      @media(max-width: 520px){
+         height: 825px;
+      }
+      @media(max-width: 410px){
+         height: 625px;
+      }
+      .content-container{
+         display: flex;
+         max-width: 1344px;
+         width: 100%;
+         height: 100%;
+         @media(max-width: 768px){
+            flex-direction: column;
+            align-items: center;
+         }
+         .title-container{
+            display: flex;
+            max-width: 416px;
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            @media(max-width: 768px){
+               max-width: 654px;
+               align-items: center;
+               height: 200px;
+               margin-bottom: 50px;
+               position: relative;
+            }
+            @media(max-width: 520px){
+               max-width: 480px;
+               height: 160px;
+               margin-bottom: 0px;
+            }
+            @media(max-width: 410px){
+               max-width: 410px;
+               height: 130px;
+            }
+            .title{
+               display: flex;
+               width: 100%;
+               height: 400px;
+               color: white;
+               font-size: 84px;
+               font-family: Bellota;
+               font-weight: 400;
+               text-transform: uppercase;
+               line-height: 100px;
+               word-wrap: break-word;
+               margin-top: 108px;
+               @media(max-width: 768px){
+                  max-width: 588px;
+                  width: 100%;
+                  height: 200px;
+                  font-size: 64px;
+                  text-align: center;
+                  margin-top: 0;
+               }
+               @media(max-width: 520px){
+                  max-width: 588px;
+                  width: 100%;
+                  height: 160px;
+                  font-size: 48px;
+                  line-height: 78px;
+                  text-align: center;
+                  margin-top: 0;
+               }
+               @media(max-width: 410px){
+                  font-size: 40px;
+                  line-height: 62px;
+               }
+            }
+            .description{
+               display: flex;
+               width: 90%;
+               color: white;
+               font-size: 24px;
+               font-family: Didact Gothic;
+               font-weight: 400;
+               line-height: 30px;
+               word-wrap: break-word;
+               margin-top: 48px;
+               @media(max-width: 768px){
+                  display: none;
+               }
+            }
+         }
+         .picture{
+            display: flex;
+            max-width: 928px;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            @media(max-width: 768px){
+               max-width: 768px;
+               width: 100%;
+               height: 723px;
+            }
+            @media(max-width: 520px){
+               max-width: 520px;
+               width: 100%;
+               height: 586px;
+            }
+            @media(max-width: 410px){
+               max-width: 410px;
+               width: 100%;
+               height: 497px;
+            }
+            .description-inPic{
+               display: none;
+               @media(max-width: 768px){
+                  display: flex;
+                  position: absolute;
+                  max-width: 256px;
+                  width: 100%;
+                  height: 95px;
+                  color: white;
+                  font-size: 36px;
+                  font-family: Didact Gothic;
+                  font-weight: 400;
+                  line-height: 38px;
+                  word-wrap: break-word;
+                  margin-left: 62px;
+               }
+               @media(max-width: 520px){
+                  margin-left: 20px;
+                  font-size: 22px;
+                  max-width: 200px;
+                  line-height: 28px;
+                  width: 100%;
+                  height: 90px;
+               }
+            }
+            img{
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,196 @@
+.subscribe-block-wrapper{
+   display: flex;
+   max-width: 1440px;
+   width: 100%;
+   height: 872px;
+   justify-content: center;
+   @media(max-width: 768px){
+      height: 665px;
+   }
+   @media(max-width: 520px){
+      height: 560px;
+   }
+   @media(max-width: 410px){
+      height: 530px;
+   }
+   .subscribe-block-container{
+      display: flex;
+      max-width: 1250px;
+      margin-top: 200px;
+      width: 100%;
+      height: 527px;
+      flex-direction: column;
+      align-items: center;
+      @media(max-width: 768px){
+         height: 665px;
+         margin: 0;
+      }
+      @media(max-width: 520px){
+         height: 560px;
+      }
+      @media(max-width: 410px){
+         height: 530px;
+      }
+      .subscribe-contacts{
+         display: flex;
+         max-width: 630px;
+         width: 100%;
+         height: 60px;
+         @media(max-width: 768px){
+            display: none;
+         }
+         .subscribe-text{
+            display: flex;
+            max-width: 500px;
+            width: 100%;
+            height: 100%;
+            color: #FFF;
+            font-feature-settings: 'salt' on;
+            font-family: Didact Gothic;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; 
+         }
+         .socials-block{
+            display: flex;
+            max-width: 128px;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+            img{
+               width: 44px;
+               height: 44px;
+               &:hover{
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+      .ellipse-block{
+         display: flex;
+         width: 100%;
+         height: 160px;
+         position: relative;
+         @media(max-width: 768px){
+            display: none;
+         }
+         .ellipse7{
+            position: absolute;
+            right: 10px;
+            top: 30px
+         }
+         .ellipse6{
+            position: absolute;
+            right: 0px;
+         }
+      }
+      .subscribe-text-container{
+         display: flex;
+         width: 100%;
+         height: 250px;
+         justify-content: center;
+         align-items: center;
+         @media(max-width: 520px){
+            max-width: 480px;
+            width: 100%;
+         }
+         @media(max-width: 410px){
+            max-width: 380px;
+            width: 100%;
+         }
+         .subscribe-text{
+            display: flex;
+            max-width: 646px;
+            width: 100%;
+            height: 90px;
+            color: #FFF;
+            text-align: center;
+            font-feature-settings: 'salt' on;
+            font-family: Didact Gothic;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+         }
+      }
+      .email-input-container{
+         display: flex;
+         width: 100%;
+         height: 75px;
+         align-items: center;
+         justify-content: center;
+         @media(max-width: 768px){
+            flex-direction: column;
+            max-width: 706px;
+            width: 100%;
+            height: 250px;
+         }
+         @media(max-width: 520px){
+            max-width: 480px;
+            width: 100%;
+         }
+         @media(max-width: 410px){
+            max-width: 380px;
+            width: 100%;
+            height: 220px;
+         }
+         .envelope{
+            @media(max-width: 768px){
+               display: none;
+            }
+         }
+         .email-input{
+            max-width: 893px;
+            width: 100%;
+            height: 75px;
+            background-color: #111C18;
+            color: rgba(255, 255, 255, 0.20);
+            text-align: center;
+            font-family: Didact Gothic;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            @media(max-width: 768px){
+               max-width: 706px;
+               width: 98%;
+            }
+            @media(max-width: 520px){
+               max-width: 480px;
+               width: 98%;
+            }
+            @media(max-width: 410px){
+               max-width: 380px;
+               width: 98%;
+            }
+         }
+      }
+      .subdcribe-button{
+         display: flex;
+         max-width: 225px;
+         width: 100%;
+         height: 64px;
+         justify-content: center;
+         align-items: center;
+         border: 2px solid white;
+         border-radius: 15px;
+         background-color: #111C18;
+         &:hover{
+            cursor: pointer;
+         }
+         @media(max-width: 768px){
+            max-width: 706px;
+            width: 100%;
+            height: 125px;
+         }
+         @media(max-width: 410px){
+            max-width: 380px;
+            width: 100%;
+            height: 100px;
+         }
+      }
+   }
+}

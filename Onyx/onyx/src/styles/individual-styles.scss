@@ -1,0 +1,269 @@
+.individual-wrapper{
+   display: flex;
+   max-width: 1440px;
+   width: 100%;
+   height: 2056px;
+   flex-direction: column;
+   @media(max-width: 768px){
+      height: 2000px;
+   }
+   @media(max-width: 520px){
+      height: 1850px;
+   }
+   @media(max-width: 410px){
+      height: 1490px;
+   }
+   .individual-container{
+      display: flex;
+      width: 100%;
+      height: 1313px;
+      position: relative;
+      @media(max-width: 768px){
+         flex-direction: column;
+         align-items: center;
+         position: static;
+         height: 2000px;
+      }
+      @media(max-width: 520px){
+         height: 1850px;
+      }
+      @media(max-width: 410px){
+         height: 1490px;
+      }
+      .individual-image{
+         display: flex;
+         max-width: 1088px;
+         width: 100%;
+         height: 100%;
+         z-index: 2;
+         @media(max-width: 768px){
+            max-width: 768px;
+            width: 100%;
+            height: 848px;
+            position: relative;
+            z-index: 4;
+         }
+         @media(max-width: 520px){
+            height: 780px;
+         }
+         @media(max-width: 410px){
+            height: 580px;
+         }
+         .pic-one{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+         .ellipse8-adaptive{
+            position: absolute;
+            width: 266px;
+            height: 263px;
+            top: 680px;
+            left: 26%;
+            z-index: -1;
+            @media(max-width: 520px){
+               top: 620px;
+               left: 20%;
+            }
+            @media(max-width: 410px){
+               top: 420px;
+               left: 12%;
+            }
+         }
+         .ellipse9-adaptive{
+            position: absolute;
+            width: 90px;
+            height: 88px;
+            top: 900px;
+            left: 45.57%;
+            z-index: -2;
+            @media(max-width: 520px){
+               top: 820px;
+               left: 53%;
+            }
+            @media(max-width: 410px){
+               top: 620px;
+               left: 53%;
+            }
+         }
+      }
+      .individual-text{
+         display: flex;
+         max-width: 600px;
+         width: 100%;
+         height: 70px;
+         text-align: end;
+         position: absolute;
+         z-index: 3;
+         color: #FFF;
+         font-feature-settings: 'salt' on;
+         font-family: Didact Gothic;
+         font-size: 24px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 35px;
+         left: 50.68%;
+         @media(max-width: 1250px){
+            left: 48%;
+         }
+         @media(max-width: 1150px){
+            left: 43%;
+         }
+         @media(max-width: 1050px){
+            left: 36%;
+         }
+         @media(max-width: 950px){
+            left: 30%;
+         }
+         @media(max-width: 850px){
+            left: 26%;
+         }
+         @media(max-width: 800px){
+            left: 22%;
+         }
+         @media(max-width: 768px){
+            position: static;
+            margin-bottom: 50px;
+         }
+         @media(max-width: 520px){
+            margin-bottom: 20px;
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+            height: 110px;
+         }
+         @media(max-width: 410px){
+            max-width: 380px;
+            width: 100%;
+            height: 150px;
+            margin-bottom: 20px;
+         }
+      }
+      .try-on-block-adaptive{
+         display: none;
+            .try-text-container{
+            display: flex;
+            max-width: 1250px;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            .try-on-text{
+               display: flex;
+               max-width: 496px;
+               width: 100%;
+               color: #FFF;
+               font-feature-settings: 'salt' on;
+               font-family: Didact Gothic;
+               font-size: 28px;
+               font-style: normal;
+               font-weight: 400;
+               line-height: 35px;
+            }
+         }
+         @media(max-width: 768px){
+            display: flex;
+            width: 100%;
+            height: 225px;
+            align-items: center;
+            justify-content: center;
+         }
+         @media(max-width: 520px){
+            max-width: 480px;
+            width: 100%;
+            height: 160px;
+         }
+         @media(max-width: 410px){
+            max-width: 380px;
+            width: 100%;
+         }
+      }
+      .individual-image-two{
+         display: flex;
+         max-width: 833px;
+         width: 100%;
+         height: 980px;
+         position: absolute;
+         right: 0px;
+         top: 800px;
+         z-index: 4;
+         @media(max-width: 768px){
+            position: static;
+            max-width: 768px;
+            width: 100%;
+            height: 848px;
+         }
+         @media(max-width: 520px){
+            height: 780px;
+         }
+         @media(max-width: 410px){
+            height: 580px;
+         }
+         img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+      }
+      .ellipse8{
+         position: absolute;
+         width: 266px;
+         height: 263px;
+         top: 1200px;
+         left: 30.51%;
+         @media(max-width: 1250px){
+            left: 25%;
+         }
+         @media(max-width: 1150px){
+            left: 20%;
+         }
+         @media(max-width: 768px){
+            display: none;
+         }
+      }
+      .ellipse9{
+         position: absolute;
+         width: 90px;
+         height: 88px;
+         top: 1270px;
+         left: 27%;
+         @media(max-width: 1250px){
+            left: 21%;
+         }
+         @media(max-width: 1150px){
+            left: 14%;
+         }
+         @media(max-width: 768px){
+            display: none;
+         }
+      }
+   }
+   .try-on-block{
+      display: flex;
+      width: 100%;
+      height: 65px;
+      justify-content: center;
+      margin-top: 673px;
+      @media(max-width: 768px){
+         display: none;
+      }
+      .try-text-container{
+         display: flex;
+         max-width: 1250px;
+         width: 100%;
+         height: 100%;
+         .try-on-text{
+            display: flex;
+            max-width: 496px;
+            width: 100%;
+            color: #FFF;
+            font-feature-settings: 'salt' on;
+            font-family: Didact Gothic;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+         }
+      }
+   }
+}
